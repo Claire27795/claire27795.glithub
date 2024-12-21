@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>แนะนำตัว</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .container {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      max-width: 500px;
+      width: 100%;
+    }
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #4caf50;
+    }
+    h1 {
+      color: #4caf50;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+      color: #666;
+    }
+    .highlight {
+      color: #007bff;
+      font-weight: bold;
+    }
+    .button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- รูปโปรไฟล์ -->
+    <img src="https://media.istockphoto.com/id/1318775674/photo/jack-russell-terrier-in-round-red-sunglasses-looks-at-camera-on-blue.jpg?s=612x612&w=0&k=20&c=RfkXBk2MpTnHjvI82GThXTGqr1_lvOPYUPZpYFdVFlE="  class="profile-img">
+
+    <h1>Hi I'm <span class="highlight">Claire</span></h1>
+    <p>My name is Natphatsorn Wanichworanant or you can call me Claire .I'm study in Satriwitaya school.</p>
+    <p>IF you want to contact me you can click     
+
+    <button class="button" onclick="window.location.href='mailto:[อีเมล์ของคุณ]'">contact me</button>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
